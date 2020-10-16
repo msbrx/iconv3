@@ -1,0 +1,36 @@
+			.parent {display:flex;}
+			.child-image {flex-basis: 50%;}
+			.child-text {flex-basis: 50%;}
+			* { font-family: Arial, Verdana, sans-serif;
+				text-align: center;}
+
+
+			body {
+				width: 960px;
+				text-align: center;
+				margin: 0 auto;}	
+			
+			.main	{
+				width:800px;
+				margin: 0 auto;}
+			}
+
+			#header{
+				background-color:black;
+				color: pink;
+				text-decoration: underline;}
+
+
+			.content {
+				overflow: auto;
+				height: 100%;}
+
+
+			#nav, #feature, #footer {
+				background-color: #efefef;
+				padding: 10px;
+				margin: 10px;}
+
+			.child-image img {
+				float: center;
+				width: 100px}	
